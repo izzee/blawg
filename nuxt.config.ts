@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxt/content'],
   nitro: {
     prerender: {
-      routes: ['/rss.xml'],
+      routes: ['/feed.xml'],
     }
   },
 })

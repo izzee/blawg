@@ -9,7 +9,7 @@ export default defineEventHandler(async (event) => {
   const feed = new RSS({
     title: config.info.title,
     site_url: `${config.info.site_url}`,
-    feed_url: `${config.info.site_url}/rss`,
+    feed_url: `${config.info.site_url}/feed.xml`,
   });
   for (const post of posts) {
     feed.item({
